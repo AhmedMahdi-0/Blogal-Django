@@ -24,7 +24,7 @@ SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-%55(mob+vhfe1t=ujd0z_6m(q=qit
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv('DEBUG', True)
 
-ALLOWED_HOSTS = ["https://web-production-65f5.up.railway.app",]
+ALLOWED_HOSTS = [https://web-production-65f5.up.railway.app]
 # Application definition
 
 INSTALLED_APPS = [
