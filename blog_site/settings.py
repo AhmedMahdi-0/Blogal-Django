@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%55(mob+vhfe1t=ujd0z_6m(q=qitx!r)vw4p9+zwogghmp6@m
 DEBUG = getenv('DEBUG', True)
 
 ALLOWED_HOSTS = ["*"]
-CORS_ORIGIN_WHITELIST = ["https://web-production-65f5.up.railway.app",]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-65f5.up.railway.app",]
 # Application definition
 
 INSTALLED_APPS = [
